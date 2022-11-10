@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 325108356}
   - component: {fileID: 325108355}
   - component: {fileID: 325108357}
+  - component: {fileID: 325108358}
   m_Layer: 3
   m_Name: Warrior_Sheet-Effect_0
   m_TagString: Untagged
@@ -591,6 +592,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &325108358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325108348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5377050f6549bdc46acb9b0bb76115f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 325108357}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
