@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: WayWayWayBackground
+    uniqueID: 1469816023
+    locked: 0
+  - name: WayWayBackground
+    uniqueID: 577585269
+    locked: 0
   - name: WayBackground
     uniqueID: 653145497
     locked: 0
