@@ -6,11 +6,14 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
-    public float runSpeed = 40f;
-    float horizontalMove = 0f;
+    public float runSpeed = 120f;
+    float horizontalMove = 140f;
     bool jump = false;
     bool crouch = false;
-
+    void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -32,6 +35,14 @@ public class PlayerMovement : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
+    }
+    private void OnLevelWasLoaded(int level)
+    {
+        FindStartPos();
+    }
+    void FindStartPos()
+    {
+        transform.position = GameObject.FindWithTag("StartPos").transform.position;
     }
     void FixedUpdate()
     {
