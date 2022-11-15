@@ -5,39 +5,41 @@ using UnityEngine.SceneManagement;
 
 public class LoadLevel : MonoBehaviour
 {
-    public int iLevelToLoad;
-    public string sLevelToLoad;
-    public bool useIntegerToLoadLevel = false;
+    public Animator transition;
+    public float transitionTime = 1f;
     // Start is called before the first frame update
     void Start()
     {
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        GameObject collisionGameObject = collision.gameObject;
-
-        if (collisionGameObject.name == "Player")
+ 
+        void OnTriggerEnter2D(Collider2D collision)
         {
-            LoadScene();
+            GameObject collisionGameObject = collision.gameObject;
+
+            if (collisionGameObject.name == "Player")
+            {
+                LoadScene();
+            }
         }
-    }
+    
+    
 
     void LoadScene()
     {
-        if (useIntegerToLoadLevel)
-        {
-            SceneManager.LoadScene(iLevelToLoad);
-        }
-        else
-        {
-            SceneManager.LoadScene(sLevelToLoad);
-        }
+        StartCoroutine(LevelLoader(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+
+    IEnumerator LevelLoader(int levelIndex)
+    {
+        //play animation
+        transition.SetTrigger("Start");
+        //wait
+        yield return new WaitForSeconds(transitionTime);
+        //load scene 
+        SceneManager.LoadScene(levelIndex);
     }
 }
