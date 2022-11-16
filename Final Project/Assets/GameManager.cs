@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour
         get; private set;
     }
 
-    public UnitHealth _playerHeath = UnitHealth();
-    void awake()
+    public UnitHealth _playerHealth = new UnitHealth(100, 100);
+    void Awake()
     {
         if (gameManager != null && gameManager != this)
         {
