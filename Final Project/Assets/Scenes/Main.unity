@@ -2070,7 +2070,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.8348694
+  orthographic size: 7.006716
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2176,7 +2176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 266e07511e459a84f8ef8b93ff2ed199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 400
+  m_JumpForce: 550
   m_CrouchSpeed: 0.33
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -2218,7 +2218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 269287826}
   animator: {fileID: 269287825}
-  runSpeed: 150
+  runSpeed: 200
 --- !u!61 &269287828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2232,18 +2232,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.074494146, y: -0.041519187}
+  m_Offset: {x: 0.0006958842, y: -0.044584412}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.69, y: 0.44}
+    oldSize: {x: 0.18, y: 0.44}
     newSize: {x: 0.69, y: 0.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19146223, y: 0.35696173}
+  m_Size: {x: 0.18264881, y: 0.3319333}
   m_EdgeRadius: 0
 --- !u!50 &269287829
 Rigidbody2D:
@@ -2562,7 +2562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.09, y: 155.31}
+  m_AnchoredPosition: {x: -433.3, y: 159.5}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502574995
