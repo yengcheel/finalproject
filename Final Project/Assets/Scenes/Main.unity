@@ -1823,7 +1823,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 51091642}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7cdcd896a523db4458f716fb955efef9, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1839,16 +1839,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -10.385385, y: 1.0490193}
-      - {x: -17.47416, y: 0.9308095}
-      - {x: -19.505524, y: 0.8969352}
+    - - {x: -10.374606, y: 1.0005205}
+      - {x: -17.494186, y: 0.9308095}
+      - {x: -17.480995, y: 7.7989244}
       - {x: -19.502174, y: -8.126412}
       - {x: -14.494834, y: -7.923815}
       - {x: -11.986613, y: -6.9036183}
       - {x: -11.537886, y: -5.7845407}
       - {x: -7.0179586, y: -3.287672}
       - {x: -3.981209, y: -1.8067982}
-      - {x: -1.8083175, y: 1.0036759}
+      - {x: -1.7054001, y: 1.0036759}
 --- !u!1 &62470305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2070,7 +2070,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.834869
+  orthographic size: 8.82445
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2112,12 +2112,12 @@ GameObject:
   - component: {fileID: 269287831}
   - component: {fileID: 269287830}
   - component: {fileID: 269287829}
-  - component: {fileID: 269287828}
   - component: {fileID: 269287827}
   - component: {fileID: 269287826}
   - component: {fileID: 269287825}
   - component: {fileID: 269287824}
   - component: {fileID: 269287832}
+  - component: {fileID: 269287833}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -2219,32 +2219,6 @@ MonoBehaviour:
   controller: {fileID: 269287826}
   animator: {fileID: 269287825}
   runSpeed: 200
---- !u!61 &269287828
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269287823}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0006958842, y: -0.044584412}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.44}
-    newSize: {x: 0.69, y: 0.44}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.18264881, y: 0.3319333}
-  m_EdgeRadius: 0
 --- !u!50 &269287829
 Rigidbody2D:
   serializedVersion: 4
@@ -2349,6 +2323,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthbar: {fileID: 380566886}
+--- !u!70 &269287833
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269287823}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.04580483}
+  m_Size: {x: 0.18, y: 0.3483904}
+  m_Direction: 0
 --- !u!1 &288458695
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,7 +2552,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.1, y: 169.9}
+  m_AnchoredPosition: {x: -368.5, y: 217.2}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502574995

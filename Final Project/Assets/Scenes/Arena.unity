@@ -365,7 +365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -350.6, y: 155.3}
+  m_AnchoredPosition: {x: -368.7, y: 168.9}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &495491291
@@ -560,7 +560,7 @@ Grid:
   m_GameObject: {fileID: 1176628299}
   m_Enabled: 1
   m_CellSize: {x: 1, y: 1, z: 0}
-  m_CellGap: {x: -0.01, y: -0.01, z: 0}
+  m_CellGap: {x: -0.1, y: -0.1, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
 --- !u!4 &1176628301
@@ -733,7 +733,7 @@ Transform:
   m_GameObject: {fileID: 1392758342}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1176628301}
@@ -6182,11 +6182,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.71396637, y: -1.6565571}
-      - {x: -16.04768, y: -1.7027931}
+    - - {x: 16.731825, y: -1.680332}
+      - {x: -0.71396637, y: -1.6565571}
+      - {x: -16.243103, y: -1.697679}
+      - {x: -18.613327, y: 5.3832793}
       - {x: -16.042858, y: -2.6735573}
       - {x: 16.275126, y: -2.795372}
-      - {x: 16.343767, y: -1.6772771}
+      - {x: 19.672281, y: 5.4714646}
 --- !u!1 &1912357446
 GameObject:
   m_ObjectHideFlags: 0
@@ -6407,8 +6409,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 701252621
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f2c63cd02a5021e4aa78859519eef703, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
