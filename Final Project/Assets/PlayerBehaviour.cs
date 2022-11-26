@@ -9,7 +9,9 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] Healthbar _healthbar;
     public Animator animator;
     public RigidbodyConstraints2D constraints2D;
-
+    public GameOver gameOver;
+    private bool isDead;
+    
 
 
     void Update()
@@ -21,10 +23,12 @@ public class PlayerBehaviour : MonoBehaviour
             animator.SetTrigger("oof");
             
         }
-        if (GameManager.gameManager._playerHealth.Health == 0)
+        if (GameManager.gameManager._playerHealth.Health == 0 && !isDead)
         {
+            isDead = true;
+            gameOver._gameOver();
             animator.SetTrigger("death");
-            constraints2D.FreezeAll;
+            
         }
         if (Input.GetKeyDown(KeyCode.H))
         {

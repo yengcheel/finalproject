@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Animator animator;
+   
     public static GameManager gameManager
     {
         get; private set;
@@ -24,4 +24,5 @@ public class GameManager : MonoBehaviour
             gameManager = this;
         }
     }
+   
 }
