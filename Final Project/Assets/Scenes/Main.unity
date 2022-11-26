@@ -2070,7 +2070,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.82445
+  orthographic size: 7.663384
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2323,6 +2323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthbar: {fileID: 380566886}
+  animator: {fileID: 269287825}
 --- !u!70 &269287833
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2420,8 +2421,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1005593, y: 0.95400006}
   m_AnchorMax: {x: 0.1005593, y: 0.95400006}
-  m_AnchoredPosition: {x: 217.8406, y: -209.564}
-  m_SizeDelta: {x: 169.9336, y: 45.127}
+  m_AnchoredPosition: {x: 146.31763, y: -79.64026}
+  m_SizeDelta: {x: 303.9126, y: 33.6876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380566886
 MonoBehaviour:
@@ -2552,8 +2553,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -368.5, y: 217.2}
-  m_SizeDelta: {x: 256, y: 256}
+  m_AnchoredPosition: {x: -634.5975, y: 376.23022}
+  m_SizeDelta: {x: 474.8051, y: 449.5395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502574995
 MonoBehaviour:
@@ -2577,7 +2578,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 13f819c7803ed944dbfa4076660daab1, type: 3}
   m_Type: 3
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -6765,8 +6766,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -212.79506, y: 210.82135}
-  m_SizeDelta: {x: -5.7548, y: -26.7233}
+  m_AnchoredPosition: {x: -0.000091552734, y: -0.00005722046}
+  m_SizeDelta: {x: -0.00018311, y: 0.000072479}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1317822625
 MonoBehaviour:
@@ -7130,6 +7131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d6da3055965a04d9315a1cc0e78ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!4 &1769617137
 Transform:
   m_ObjectHideFlags: 0
@@ -7398,7 +7400,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094126534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.86, y: 2.35, z: 17.337286}
+  m_LocalPosition: {x: -12.54, y: 2.35, z: 17.337286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

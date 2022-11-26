@@ -2,27 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerBehaviour : MonoBehaviour
 {
+    
     [SerializeField] Healthbar _healthbar;
-    void Start()
-    {
-        
-    }
+    public Animator animator;
+    public RigidbodyConstraints2D constraints2D;
 
-   
+
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.G))
         {
-            PlayerTakeDmg(20);
+            PlayerTakeDmg(10);
             Debug.Log(GameManager.gameManager._playerHealth.Health);
+            animator.SetTrigger("oof");
+            
+        }
+        if (GameManager.gameManager._playerHealth.Health == 0)
+        {
+            animator.SetTrigger("death");
+            constraints2D.FreezeAll;
         }
         if (Input.GetKeyDown(KeyCode.H))
         {
             PlayerHeal(20);
             Debug.Log(GameManager.gameManager._playerHealth.Health);
         }
+       
     }
     private void PlayerTakeDmg(int dmg)
     {

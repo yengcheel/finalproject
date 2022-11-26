@@ -7,7 +7,6 @@ public class UnitHealth
     //Fields
     int _currentHealth;
     int _currentMaxHealth;
-
     //Properties
     public int Health
     {
@@ -38,12 +37,16 @@ public class UnitHealth
         _currentMaxHealth=maxHealth;
     }
     //Methods
+
+
     public void DmgUnit(int dmgAmount)
     {
         if (_currentHealth > 0)
         {
             _currentHealth -= dmgAmount;
         }
+        
+        
     }
     public void HealUnit(int healAmount)
     {
@@ -55,5 +58,6 @@ public class UnitHealth
             _currentHealth = _currentMaxHealth; 
         }
     }
+  
 }
 

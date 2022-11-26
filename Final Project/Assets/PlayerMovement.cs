@@ -12,7 +12,8 @@ public class PlayerMovement : MonoBehaviour
     bool crouch = false;
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+     
+   
     }
     // Update is called once per frame
     void Update()
@@ -24,26 +25,12 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
             animator.SetBool("IsJumping", true);
         }
-        if (Input.GetButtonDown("Crouch"))
-        {
-            crouch = true;
-        }
-        else if (Input.GetButtonUp("Crouch")){
-            crouch = false;
-        }
     }
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
     }
-    private void OnLevelWasLoaded(int level)
-    {
-        FindStartPos();
-    }
-    void FindStartPos()
-    {
-        transform.position = GameObject.FindWithTag("StartPos").transform.position;
-    }
+ 
     void FixedUpdate()
     {
         //Move our character
