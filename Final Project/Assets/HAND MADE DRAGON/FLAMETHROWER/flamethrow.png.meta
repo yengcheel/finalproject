@@ -1,0 +1,927 @@
+fileFormatVersion: 2
+guid: ba723591d20658c47ab0c7ea9c6d0e30
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flamethrow_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2256
+        width: 130
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5819b1b896c6cef4ba5c5c8c70e9b466
+      internalID: 1100412608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 2256
+        width: 130
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d05edd1109915e408a0dc8575dc7f21
+      internalID: 1238169863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_2
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 2256
+        width: 132
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c02eb3400f0c84f95cd62986e0e71b
+      internalID: -1206599034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_3
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 2256
+        width: 140
+        height: 97
+      alignment: 9
+      pivot: {x: 0.54277605, y: 0.5000025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de642f074a6e8e143b9b623a56dbd41d
+      internalID: 1499368279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1743
+        width: 150
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5667647, y: 0.5057323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d90cd4cfbce3cd44a2c217688a5c32e
+      internalID: -1037695815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_5
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1741
+        width: 185
+        height: 100
+      alignment: 9
+      pivot: {x: 0.6537878, y: 0.51536745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e8b7d893024344c833013d5011e8f0
+      internalID: 1646706615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_6
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1733
+        width: 209
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6890262, y: 0.5507496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d5e214600a4ed45862881e48a60204
+      internalID: -1235702751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_7
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1732
+        width: 251
+        height: 109
+      alignment: 9
+      pivot: {x: 0.7450136, y: 0.5548902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f49bd55c4464c438be6c71462f5eef
+      internalID: -1442368222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1219
+        width: 295
+        height: 109
+      alignment: 9
+      pivot: {x: 0.779641, y: 0.5640421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c5d64cef5491245a09ff98cc3d9b9f
+      internalID: 341156529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1219
+        width: 315
+        height: 109
+      alignment: 9
+      pivot: {x: 0.7968446, y: 0.56428623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2c5d660c4e42d45bd90b8fdb8a6cb3
+      internalID: 1464237253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_10
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1219
+        width: 317
+        height: 109
+      alignment: 9
+      pivot: {x: 0.7949958, y: 0.56433666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe662515e0178e4b85f133bc33e0fe9
+      internalID: 964135922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_11
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1219
+        width: 315
+        height: 109
+      alignment: 9
+      pivot: {x: 0.7968676, y: 0.56513625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825a514d0673f2946808ff69512d008f
+      internalID: -165738909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 768
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bddbadfcc00aa42b78f6c2ccac6cb2
+      internalID: 639231187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 719
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758d7ef4d4bc77442bba898e49fb3fa1
+      internalID: 754558392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_14
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 719
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574393a3446c1864f96997db83bbecc8
+      internalID: 1447419886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_15
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 719
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bf09ecb73400c4a802a1d0b59539da
+      internalID: -1375127719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_16
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 719
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09400b6818286c540ab8ed9db83477c9
+      internalID: 1357022354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 707
+        width: 185
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029002441d1bc2f459c1e0dc88c508d0
+      internalID: 1236684288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_18
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 707
+        width: 165
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca874c0763331649b344d6763854af1
+      internalID: -746322699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_19
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 746
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9279306982f706e429d30a3ae52972fe
+      internalID: 303690961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_20
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 708
+        width: 148
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7486b9a33872d48889f78e44a7591a
+      internalID: 1147141340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_21
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 747
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88142d17afc2f5a4291eabab9fc78331
+      internalID: -869528095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_22
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 758
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881257d86c3ad1549b6a31417e102903
+      internalID: 1207386692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_23
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 752
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f933c030176b44c89e4231a90a59e1
+      internalID: -452878945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_24
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 748
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f415af1ebb0f7343b477eb403efce2e
+      internalID: -4712591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_25
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 709
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fb0441a2f71b34e8fa423981a6883e
+      internalID: -101038427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_26
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 744
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f849340c8e8ea5c469be2e5bcd7a9c21
+      internalID: 1849795513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_27
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 737
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0a52172145ad140bf7d429170ef843
+      internalID: 1762058795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_28
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 734
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e4a54fb3dbf53479f5efe9c5de3b44
+      internalID: 1283375299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_29
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 727
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291a661d2107cbb4483100f235526d64
+      internalID: -1796787521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_30
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 708
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0ef2d3d7467884cbe7fdf04922fb3b
+      internalID: 869833580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_31
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 208
+        width: 130
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb1ea0127c3d844a8991f568c5463f
+      internalID: -1509818227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 703
+        width: 315
+        height: 114
+      alignment: 9
+      pivot: {x: 0.7999921, y: 0.57478625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c823d681b68105b4688d5d5c7d7b0615
+      internalID: -1829584642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_33
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 700
+        width: 315
+        height: 117
+      alignment: 9
+      pivot: {x: 0.7968198, y: 0.5854534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eb6111d9eb13a47a5cf3f543e20d44
+      internalID: -1600720556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_34
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 699
+        width: 313
+        height: 118
+      alignment: 9
+      pivot: {x: 0.79871345, y: 0.5891072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a830a0d0aaf677a4595d87b7236f2bd1
+      internalID: 1280138699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrow_35
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 692
+        width: 327
+        height: 142
+      alignment: 9
+      pivot: {x: 0.7522529, y: 0.5390337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f320567ebe04c745a81281414db2f47
+      internalID: -2013946789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      flamethrow_34: 1280138699
+      flamethrow_17: 1236684288
+      flamethrow_19: 303690961
+      flamethrow_9: 1464237253
+      flamethrow_32: -1829584642
+      flamethrow_11: -165738909
+      flamethrow_28: 1283375299
+      flamethrow_12: 639231187
+      flamethrow_18: -746322699
+      flamethrow_13: 754558392
+      flamethrow_24: -4712591
+      flamethrow_14: 1447419886
+      flamethrow_3: 1499368279
+      flamethrow_2: -1206599034
+      flamethrow_7: -1442368222
+      flamethrow_4: -1037695815
+      flamethrow_16: 1357022354
+      flamethrow_22: 1207386692
+      flamethrow_23: -452878945
+      flamethrow_5: 1646706615
+      flamethrow_15: -1375127719
+      flamethrow_25: -101038427
+      flamethrow_26: 1849795513
+      flamethrow_1: 1238169863
+      flamethrow_8: 341156529
+      flamethrow_21: -869528095
+      flamethrow_27: 1762058795
+      flamethrow_30: 869833580
+      flamethrow_35: -2013946789
+      flamethrow_0: 1100412608
+      flamethrow_10: 964135922
+      flamethrow_6: -1235702751
+      flamethrow_20: 1147141340
+      flamethrow_31: -1509818227
+      flamethrow_29: -1796787521
+      flamethrow_33: -1600720556
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,9 +7,10 @@ public class PlayerCombat : MonoBehaviour
     public Animator animator;
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public LayerMask enemyLayers;
+    public LayerMask bosslayer;
     public float attackRate = 0.1f;
     float nextAttackTime = 0f;
+    
     // Update is called once per frame
     void Update()
     {
@@ -31,15 +32,29 @@ public class PlayerCombat : MonoBehaviour
     }
     void Attack()
     {
+
         //Play attack animation
         animator.SetTrigger("Attack");
         //Detect enemy in range of attack
-       
+        Collider2D[] hitboss = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, bosslayer);
         //Damage enemy
-       
+       foreach(Collider2D enemy in hitboss)
+        {
+            enemy.GetComponent<Boss>().TakeDamage(10);
+        }
     }
     void Attack2()
     {
         animator.SetTrigger("Attack2");
+        Collider2D[] hitboss = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, bosslayer);
+        foreach (Collider2D enemy in hitboss)
+        {
+            Debug.Log("Hit" + enemy.name);
+        }
+    }
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null) { return; }
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

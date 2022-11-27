@@ -115,7 +115,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: footslamfire_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1745
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a5dff998ace1844b7f3a68b2ed8101
+      internalID: -1585924248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_1
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1745
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ece17c3aeb39b74db53814636238250
+      internalID: -2082972247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_2
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1745
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d394fe57b25ce4e8641459c884331f
+      internalID: -1444099869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1233
+        width: 148
+        height: 94
+      alignment: 9
+      pivot: {x: 0.57109493, y: 0.4999987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7627271e82d90264899d54d8a5d6df74
+      internalID: 775282553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1233
+        width: 214
+        height: 94
+      alignment: 9
+      pivot: {x: 0.7031544, y: 0.5002896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9afcee0344faf43b41a9bf04097634
+      internalID: 336887131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_5
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1233
+        width: 274
+        height: 94
+      alignment: 9
+      pivot: {x: 0.76828027, y: 0.5000026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffaca3b53d0b6e4ab13a810af62b61f
+      internalID: 36882733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 719
+        width: 274
+        height: 96
+      alignment: 9
+      pivot: {x: 0.76812077, y: 0.51052475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a522a8b7dd081fd44aeb22ff8b57f167
+      internalID: 310069443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 719
+        width: 153
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e32a7b9a40357345a1ca04317d6112f
+      internalID: 743943725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 721
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf2cc0b3d18e2e46bffa3a916baff20
+      internalID: 1643876335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_9
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 719
+        width: 118
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44454060407af246b87d2a1537c1188
+      internalID: -1461631321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_10
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 721
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ade0a6a350e13a4da4ab986eee9170d
+      internalID: -1384923888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 208
+        width: 81
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ba01c7029650c4bb518087dfc31715
+      internalID: 1911686828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 209
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33660af3c277a8468f89be1e06f35d3
+      internalID: 2107582543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_13
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 209
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba29f576cbe89549bf0a19491656e4f
+      internalID: -2129199721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_14
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 209
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5f0f1ff5962d5499093025ffa7a1a2
+      internalID: 1774368229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_15
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 209
+        width: 127
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb04ffb512a0fbf4d98cf4852de7e282
+      internalID: -896266407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 721
+        width: 274
+        height: 94
+      alignment: 9
+      pivot: {x: 0.76815414, y: 0.50007856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d5d591d0c5f03438fc8c6b1d99bef3
+      internalID: 1574657545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_17
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 721
+        width: 274
+        height: 94
+      alignment: 9
+      pivot: {x: 0.76824236, y: 0.4998825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d9fe6c3d884d74e8749be8a095807c
+      internalID: 1050334088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 209
+        width: 274
+        height: 94
+      alignment: 9
+      pivot: {x: 0.7682123, y: 0.50001556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6ecac6fabf08840ab02268c92ee6b3
+      internalID: 1783210873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: footslamfire_19
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 209
+        width: 274
+        height: 94
+      alignment: 9
+      pivot: {x: 0.7681751, y: 0.5000312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb40207fea6247b4399feb017cb3e90e
+      internalID: -1891572367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +546,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      footslamfire_6: 310069443
+      footslamfire_17: 1050334088
+      footslamfire_18: 1783210873
+      footslamfire_11: 1911686828
+      footslamfire_0: -1585924248
+      footslamfire_5: 36882733
+      footslamfire_13: -2129199721
+      footslamfire_1: -2082972247
+      footslamfire_14: 1774368229
+      footslamfire_15: -896266407
+      footslamfire_12: 2107582543
+      footslamfire_2: -1444099869
+      footslamfire_9: -1461631321
+      footslamfire_4: 336887131
+      footslamfire_16: 1574657545
+      footslamfire_8: 1643876335
+      footslamfire_7: 743943725
+      footslamfire_10: -1384923888
+      footslamfire_19: -746152402
+      footslamfire_3: 775282553
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
