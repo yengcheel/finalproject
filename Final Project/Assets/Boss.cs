@@ -9,7 +9,7 @@ public class Boss : MonoBehaviour
     int currentHealth;
     public Transform player;
     public Animator animator;
-    public LayerMask Player;
+    public LayerMask Playerlayer;
 
     public bool isFlipped = false;
 
