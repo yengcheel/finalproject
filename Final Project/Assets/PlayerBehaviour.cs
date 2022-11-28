@@ -12,17 +12,12 @@ public class PlayerBehaviour : MonoBehaviour
     public GameOver gameOver;
     private bool isDead;
     
+    
 
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            PlayerTakeDmg(10);
-            Debug.Log(GameManager.gameManager._playerHealth.Health);
-            animator.SetTrigger("oof");
-            
-        }
+        
         if (GameManager.gameManager._playerHealth.Health == 0 && !isDead)
         {
             isDead = true;
@@ -30,17 +25,12 @@ public class PlayerBehaviour : MonoBehaviour
             animator.SetTrigger("death");
             
         }
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            PlayerHeal(20);
-            Debug.Log(GameManager.gameManager._playerHealth.Health);
-        }
-       
     }
-    private void PlayerTakeDmg(int dmg)
+    public void PlayerTakeDmg(int dmg)
     {
         GameManager.gameManager._playerHealth.DmgUnit(dmg);
         _healthbar.SetHealth(GameManager.gameManager._playerHealth.Health);
+        animator.SetTrigger("oof");
     }
     private void PlayerHeal(int healing)
     {

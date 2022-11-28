@@ -10,6 +10,8 @@ public class Boss : MonoBehaviour
     public Transform player;
     public Animator animator;
     public LayerMask Playerlayer;
+    public PlayerBehaviour playerdmg;
+   
 
     public bool isFlipped = false;
 
@@ -31,9 +33,9 @@ public class Boss : MonoBehaviour
             isFlipped = true;
         }
     }
-    private void OnTriggerEnter2D(Collider2D Player)
+    private void OnTriggerExit2D(Collider2D player)
     {
-        Debug.Log("player hit:" + Player.name);
+        playerdmg.PlayerTakeDmg(20);
     }
     void Start()
     {
