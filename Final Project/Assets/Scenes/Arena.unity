@@ -276,6 +276,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   playerdmg: {fileID: 1214137893}
+  timer: {fileID: 0}
   isFlipped: 0
 --- !u!60 &69143346
 PolygonCollider2D:

@@ -11,6 +11,7 @@ public class Boss : MonoBehaviour
     public Animator animator;
     public LayerMask Playerlayer;
     public PlayerBehaviour playerdmg;
+    public CountDownTimer timer;
    
 
     public bool isFlipped = false;

@@ -20,8 +20,10 @@ public class IdleState : StateMachineBehaviour
         if (timer > 3)
             animator.SetBool("flamethrower", true);
         float distance = Vector2.Distance(player.position, animator.transform.position);
+        
         if(distance > 20)
             animator.SetBool("fireball", true);
+       
         if (distance < 8)
             animator.SetBool("footslam", true);
     }
