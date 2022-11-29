@@ -7,10 +7,18 @@ public class CountDownTimer : MonoBehaviour
 {
     float currentTime = 0f;
     float startingTime = 60f;
+    float stoptime;
     public Animator animator;
     public Text CountDownText;
     public GameOver lose;
     public Animator player;
+   
+    public void StopTime()
+    {
+        stoptime = currentTime;
+        CountDownText.text = currentTime.ToString(".0");
+
+    }
 
     void Start()
     {
@@ -30,7 +38,7 @@ public class CountDownTimer : MonoBehaviour
             animator.SetTrigger("novatime");
            
         }
-        if (currentTime <= 1.9)
+        if (currentTime <= 1.6)
         {
             player.SetTrigger("death");
             lose._gameOver();

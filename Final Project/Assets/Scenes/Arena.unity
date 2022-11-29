@@ -223,8 +223,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69143338}
-  m_LocalRotation: {x: -0, y: -0.0031680882, z: -0, w: 0.99999505}
-  m_LocalPosition: {x: 10.34, y: -1.68, z: -0.02}
+  m_LocalRotation: {x: -0, y: 0.0026759596, z: -0, w: 0.9999964}
+  m_LocalPosition: {x: 7.72, y: -1.71, z: -0.64}
   m_LocalScale: {x: 7.2818375, y: 7.058632, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -235,7 +235,7 @@ Transform:
   - {fileID: 1449739312}
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: -0.363, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.307, z: 0}
 --- !u!50 &69143343
 Rigidbody2D:
   serializedVersion: 4
@@ -276,8 +276,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   playerdmg: {fileID: 1214137893}
-  timer: {fileID: 0}
-  isFlipped: 0
+  timer: {fileID: 79796941}
 --- !u!60 &69143346
 PolygonCollider2D:
   m_ObjectHideFlags: 0

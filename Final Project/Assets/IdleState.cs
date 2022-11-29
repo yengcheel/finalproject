@@ -19,12 +19,16 @@ public class IdleState : StateMachineBehaviour
         timer += Time.deltaTime;
         if (timer > 3)
             animator.SetBool("flamethrower", true);
+       
+        //distance conditions
+
         float distance = Vector2.Distance(player.position, animator.transform.position);
         
         if(distance > 20)
             animator.SetBool("fireball", true);
-       
-        if (distance < 8)
+
+        if (distance < 8 && timer > 3)
+            
             animator.SetBool("footslam", true);
     }
 
