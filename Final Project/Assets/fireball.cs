@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dragon_flamethrower : StateMachineBehaviour
+public class fireball : StateMachineBehaviour
 {
     float timer;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -15,8 +15,8 @@ public class dragon_flamethrower : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         timer += Time.deltaTime;
-        if (timer > 1)
-            animator.SetBool("flamethrower", false);
+        if (timer > 3)
+            animator.SetBool("fireball", false);
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
