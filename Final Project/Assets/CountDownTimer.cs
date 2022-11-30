@@ -12,21 +12,21 @@ public class CountDownTimer : MonoBehaviour
     public Text CountDownText;
     public GameOver lose;
     public Animator player;
+    public Boss boss;
+    
    
-    public void StopTime()
-    {
-        stoptime = currentTime;
-        CountDownText.text = currentTime.ToString(".0");
-
-    }
+   
 
     void Start()
     {
         currentTime = startingTime;
+        
 
     }
     void Update()
     {
+
+        stoptime = currentTime;
         currentTime -= 1 * Time.deltaTime;
         CountDownText.text = currentTime.ToString(".0");
         if (currentTime <= 0)
@@ -50,6 +50,14 @@ public class CountDownTimer : MonoBehaviour
            
             
             
+        }
+        if(boss.currentHealth <= 0)
+        {
+            currentTime = stoptime;
+        }
+        if(GameManager.gameManager._playerHealth.Health == 0)
+        {
+            currentTime = stoptime;
         }
        
     }

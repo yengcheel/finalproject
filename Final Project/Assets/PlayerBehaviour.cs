@@ -13,6 +13,7 @@ public class PlayerBehaviour : MonoBehaviour
     private bool isDead;
     
     
+    
 
 
     void Update()
@@ -23,7 +24,9 @@ public class PlayerBehaviour : MonoBehaviour
             isDead = true;
             gameOver._gameOver();
             animator.SetTrigger("death");
-            
+            GameManager.gameManager._playerHealth.Health = 0;
+
+
         }
     }
     public void PlayerTakeDmg(int dmg)

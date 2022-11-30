@@ -17,19 +17,29 @@ public class IdleState : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         timer += Time.deltaTime;
-        if (timer > 3)
+        int num = Random.Range(2, 6);
+        float distance = Vector2.Distance(player.position, animator.transform.position);
+        if (distance > 10 && distance < 20 && timer > num)
             animator.SetBool("flamethrower", true);
        
         //distance conditions
 
-        float distance = Vector2.Distance(player.position, animator.transform.position);
         
-        if(distance > 20)
+        
+        if(distance > 20 && timer > num)
             animator.SetBool("fireball", true);
 
-        if (distance < 8 && timer > 3)
+        if (distance < 10 && timer > num)
             
             animator.SetBool("footslam", true);
+       
+        //if (GameManager.gameManager._playerHealth.Health == 0)
+        //{
+        //    animator.SetBool("fireball", false);
+        //    animator.SetBool("flamethrower", false);
+        //    animator.SetBool("footslam", false);
+        //    animator.enabled = false;
+        //}
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

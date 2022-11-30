@@ -1848,7 +1848,8 @@ PolygonCollider2D:
       - {x: -11.537886, y: -5.7845407}
       - {x: -7.0179586, y: -3.287672}
       - {x: -3.981209, y: -1.8067982}
-      - {x: -1.7054001, y: 1.0036759}
+      - {x: -1.6877165, y: 0.94143224}
+      - {x: -1.6562716, y: 0.9791117}
 --- !u!1 &62470305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,9 +2139,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 269287825}
-  attackPoint: {fileID: 0}
+  attackPoint: {fileID: 1307893425}
   attackRange: 0.5
-  enemyLayers:
+  bosslayer:
     serializedVersion: 2
     m_Bits: 0
   attackRate: 2
@@ -2324,6 +2325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _healthbar: {fileID: 380566886}
   animator: {fileID: 269287825}
+  constraints2D: 0
+  gameOver: {fileID: 0}
 --- !u!70 &269287833
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7131,7 +7134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d6da3055965a04d9315a1cc0e78ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
 --- !u!4 &1769617137
 Transform:
   m_ObjectHideFlags: 0
@@ -7368,8 +7370,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012066043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.7166, y: -6.6104, z: 0}
-  m_LocalScale: {x: 27.406197, y: 2.3358839, z: 1}
+  m_LocalPosition: {x: 6.0423, y: -6.6104, z: 0}
+  m_LocalScale: {x: 32.05703, y: 2.3358839, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1757749616}
