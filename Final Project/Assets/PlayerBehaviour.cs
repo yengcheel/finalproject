@@ -21,6 +21,7 @@ public class PlayerBehaviour : MonoBehaviour
         
         if (GameManager.gameManager._playerHealth.Health <= 0 && !isDead)
         {
+            
             isDead = true;
             gameOver._gameOver();
             animator.SetTrigger("death");
@@ -34,6 +35,7 @@ public class PlayerBehaviour : MonoBehaviour
         GameManager.gameManager._playerHealth.DmgUnit(dmg);
         _healthbar.SetHealth(GameManager.gameManager._playerHealth.Health);
         animator.SetTrigger("oof");
+        
     }
     private void PlayerHeal(int healing)
     {

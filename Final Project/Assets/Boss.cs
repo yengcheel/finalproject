@@ -16,17 +16,25 @@ public class Boss : MonoBehaviour
     public WinScript win;
 
 
-    private void OnTriggerExit2D(Collider2D player)
+     void OnTriggerExit2D(Collider2D Player)
     {
         int num = Random.Range(8, 16);
         playerdmg.PlayerTakeDmg(num);
+        
     }
     
     public void Start()
     {
         currentHealth = maxHealth;
     }
-   
+    void Update()
+    {
+        if (GameManager.gameManager._playerHealth.Health <= 0)
+        {
+            
+            animator.enabled = false;
+        }
+    }
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
