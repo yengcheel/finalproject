@@ -8,11 +8,13 @@ public class CountDownTimer : MonoBehaviour
     float currentTime = 0f;
     float startingTime = 60f;
     float stoptime;
+    float timespent;
     public Animator animator;
     public Text CountDownText;
     public GameOver lose;
     public Animator player;
     public Boss boss;
+    public Text timetaken;
     
    
    
@@ -51,11 +53,13 @@ public class CountDownTimer : MonoBehaviour
             
             
         }
-        if(boss.currentHealth <= 0)
+        if(boss.currentHealth == 0)
         {
             currentTime = stoptime;
+            timespent = startingTime - stoptime;
+            timetaken.text = timespent.ToString(".0");
         }
-        if(GameManager.gameManager._playerHealth.Health == 0)
+        if(GameManager.gameManager._playerHealth.Health <= 0)
         {
             currentTime = stoptime;
         }

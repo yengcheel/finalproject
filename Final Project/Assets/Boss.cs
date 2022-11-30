@@ -13,6 +13,7 @@ public class Boss : MonoBehaviour
     public PlayerBehaviour playerdmg;
     public CountDownTimer timer;
     private bool isDead;
+    public WinScript win;
 
 
     private void OnTriggerExit2D(Collider2D player)
@@ -43,6 +44,7 @@ public class Boss : MonoBehaviour
         {
             Die();
             currentHealth = 0;
+           
         }
     }
     void Die()
@@ -50,6 +52,7 @@ public class Boss : MonoBehaviour
         //Die animatuon
         //Disable boss
         animator.SetTrigger("dragon_die");
+        win._win();
         
     }
 }

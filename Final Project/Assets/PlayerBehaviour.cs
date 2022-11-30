@@ -19,12 +19,12 @@ public class PlayerBehaviour : MonoBehaviour
     void Update()
     {
         
-        if (GameManager.gameManager._playerHealth.Health == 0 && !isDead)
+        if (GameManager.gameManager._playerHealth.Health <= 0 && !isDead)
         {
             isDead = true;
             gameOver._gameOver();
             animator.SetTrigger("death");
-            GameManager.gameManager._playerHealth.Health = 0;
+            
 
 
         }
